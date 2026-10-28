@@ -1,0 +1,698 @@
+{
+  "version": 1,
+  "type": {
+    "base_size": 9,
+    "roles": {
+      "title": {
+        "factor": 1.5,
+        "weight": 600,
+        "color": "ink"
+      },
+      "subtitle": {
+        "factor": 1.0,
+        "weight": 400,
+        "color": "muted"
+      },
+      "panel": {
+        "factor": 1.0,
+        "weight": 600,
+        "color": "ink"
+      },
+      "label": {
+        "factor": 0.8,
+        "weight": 400,
+        "color": "muted"
+      },
+      "caption": {
+        "factor": 0.8,
+        "weight": 400,
+        "color": "faint"
+      }
+    },
+    "line_gap": 0.25,
+    "value_weight": 400,
+    "key_weight": 600
+  },
+  "spacing": {
+    "margin": 1.75,
+    "title_subtitle": 0.35,
+    "header_legend": 1.25,
+    "legend_rows": 0.65,
+    "legend_content": 1.5,
+    "panel_header": 0.6,
+    "panel_rows": 2.25,
+    "panel_columns": 2.0,
+    "content_caption": 1.5,
+    "y_title": 0.85,
+    "stats_pair": 2.0,
+    "legend_item": 1.5,
+    "legend_swatch_text": 0.5,
+    "y_labels_plot": 0.5,
+    "x_tick_labels": 1.6,
+    "x_title": 0.4,
+    "min_panel_height": 2.0,
+    "legend_swatch_line": 1.35,
+    "legend_swatch_square": 0.85,
+    "qualifier_gap": 0.65,
+    "x_tick_pad": 0.45,
+    "panel_letter_gap": 0.65,
+    "table_gap": 1.25
+  },
+  "lines": {
+    "data": 0.14,
+    "secondary": 0.055,
+    "secondary_opacity": 0.3,
+    "grid": 0.05,
+    "axis": 0.065,
+    "reference": 0.075,
+    "reference_dash": [
+      3.0,
+      2.5
+    ],
+    "point_radius": 0.2,
+    "light_slot_line": 1.3,
+    "fill_gap_pt": 2.0,
+    "band_opacity": 0.15,
+    "panel_steps": [
+      {"max_mm": 65, "scale": 0.5},
+      {"max_mm": 110, "scale": 0.65},
+      {"max_mm": null, "scale": 0.8}
+    ]
+  },
+  "neutral": {
+    "ink": "#1b1e22",
+    "muted": "#5b6168",
+    "faint": "#6f757d",
+    "axis": "#c4c8cd",
+    "grid": "#eef0f2",
+    "band": "#f2f3f5",
+    "surface": "#ffffff"
+  },
+  "palettes": {
+    "daylight": [
+      "#0a6ddd",
+      "#de4642",
+      "#e79d01",
+      "#019a98",
+      "#f07202",
+      "#06b1f7",
+      "#06a141",
+      "#8264e7"
+    ],
+    "calm": [
+      "#397abe",
+      "#c66561",
+      "#43c49f",
+      "#d7a447",
+      "#3baee2",
+      "#67a559",
+      "#a26dba",
+      "#d67f50"
+    ],
+    "deep": [
+      "#1649ae",
+      "#dd574e",
+      "#e4a409",
+      "#a75001",
+      "#05aef3",
+      "#079343",
+      "#7658cb",
+      "#92ac01"
+    ],
+    "lagoon": [
+      "#0c71d1",
+      "#da534f",
+      "#0fb9cc",
+      "#ef8604",
+      "#48b8fe",
+      "#99ba22",
+      "#5a62d2",
+      "#05a152"
+    ],
+    "citrus": [
+      "#0574c7",
+      "#d6464d",
+      "#d4ad0a",
+      "#03b8ed",
+      "#ab3503",
+      "#7eba27",
+      "#8654cc",
+      "#059a46"
+    ],
+    "bold": [
+      "#1249e5",
+      "#e5011a",
+      "#dfa70d",
+      "#0ca8cf",
+      "#e56806",
+      "#0a938e",
+      "#7629d8",
+      "#079343"
+    ]
+  },
+  "default_palette": "daylight",
+  "sets": {
+    "pair": [
+      "#0a6ddd",
+      "#de4642"
+    ],
+    "pair-teal": [
+      "#019a98",
+      "#f07202"
+    ],
+    "pair-print": [
+      "#1649ae",
+      "#e4a409"
+    ],
+    "ink": [
+      "#1b1e22",
+      "#4a5057",
+      "#767c84",
+      "#a3a8ae",
+      "#cdd0d4"
+    ],
+    "judgement": {
+      "low": "#019a98",
+      "some": "#e79d01",
+      "high": "#de4642"
+    }
+  },
+  "ramp_definitions": {
+    "sequential": {
+      "blues": 255,
+      "teals": 195,
+      "oranges": 55,
+      "berries": 350,
+      "greys": null
+    },
+    "diverging": {
+      "blue-coral": [
+        255,
+        28
+      ],
+      "teal-berry": [
+        195,
+        350
+      ]
+    },
+    "steps": 7,
+    "lightness": [
+      0.95,
+      0.35
+    ],
+    "chroma_peak": 0.16,
+    "midpoint": "#efefed"
+  },
+  "ramps": {
+    "blues": [
+      "#e4f0ff",
+      "#add1ff",
+      "#73b1ff",
+      "#4390ee",
+      "#2771c8",
+      "#14549d",
+      "#0b3a6f"
+    ],
+    "teals": [
+      "#b2fffe",
+      "#3de8e9",
+      "#00c7c7",
+      "#00a4a4",
+      "#008282",
+      "#006262",
+      "#004444"
+    ],
+    "oranges": [
+      "#ffeadc",
+      "#ffbe91",
+      "#f69142",
+      "#d76f04",
+      "#ac5700",
+      "#834100",
+      "#5c2c00"
+    ],
+    "berries": [
+      "#ffe7f1",
+      "#ffb4d7",
+      "#f482bb",
+      "#d4609d",
+      "#b0447e",
+      "#882f60",
+      "#601e42"
+    ],
+    "greys": [
+      "#eeeeee",
+      "#cecece",
+      "#aeaeae",
+      "#8f8f8f",
+      "#717171",
+      "#555555",
+      "#3a3a3a"
+    ],
+    "blue-coral": [
+      "#0b3a6f",
+      "#14549d",
+      "#2771c8",
+      "#4390ee",
+      "#73b1ff",
+      "#add1ff",
+      "#efefed",
+      "#ffbab0",
+      "#ff8577",
+      "#e06255",
+      "#ba453b",
+      "#912f28",
+      "#661f19"
+    ],
+    "teal-berry": [
+      "#004444",
+      "#006262",
+      "#008282",
+      "#00a4a4",
+      "#00c7c7",
+      "#3de8e9",
+      "#efefed",
+      "#ffb4d7",
+      "#f482bb",
+      "#d4609d",
+      "#b0447e",
+      "#882f60",
+      "#601e42"
+    ]
+  },
+  "sizes": {
+    "single": {
+      "width_mm": 85,
+      "aspect": 0.75,
+      "base_size": 8
+    },
+    "onehalf": {
+      "width_mm": 120,
+      "aspect": 0.7,
+      "base_size": 9
+    },
+    "double": {
+      "width_mm": 174,
+      "aspect": 0.6,
+      "base_size": 9
+    },
+    "a4": {
+      "width_mm": 160,
+      "aspect": 0.6,
+      "base_size": 9
+    },
+    "slide": {
+      "width_mm": 254,
+      "height_mm": 142.9,
+      "base_size": 16
+    }
+  },
+  "locales": {
+    "en": {
+      "decimal": ".",
+      "thousands": ",",
+      "percent_space": "",
+      "minus": "−",
+      "months": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ]
+    },
+    "de": {
+      "decimal": ",",
+      "thousands": " ",
+      "percent_space": " ",
+      "minus": "−",
+      "months": [
+        "Jan",
+        "Feb",
+        "Mär",
+        "Apr",
+        "Mai",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Okt",
+        "Nov",
+        "Dez"
+      ]
+    }
+  },
+  "default_locale": "en",
+  "checks": {
+    "lightness": [
+      0.43,
+      0.77
+    ],
+    "chroma_floor": 0.1,
+    "cvd_target": 8,
+    "cvd_floor": 6,
+    "normal_floor": 15,
+    "contrast_light_slot": 3,
+    "head_slots": 3,
+    "adapt_lightness": [
+      0.45,
+      0.75
+    ],
+    "adapt_chroma": 0.105,
+    "adapt_step": 0.03,
+    "adapt_iterations": 10
+  },
+  "export": {
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "valid_formats": [
+      "pdf",
+      "png",
+      "svg",
+      "tiff",
+      "html"
+    ],
+    "dpi": 600
+  },
+  "font": {
+    "family": "Hairline Sans",
+    "source": "Public Sans v2.001 (SIL OFL 1.1)",
+    "files": {
+      "400": "HairlineSans-Regular.ttf",
+      "500": "HairlineSans-Medium.ttf",
+      "600": "HairlineSans-SemiBold.ttf",
+      "400i": "HairlineSans-Italic.ttf",
+      "500i": "HairlineSans-MediumItalic.ttf",
+      "600i": "HairlineSans-SemiBoldItalic.ttf"
+    }
+  },
+  "ticks": {
+    "multipliers": [
+      1,
+      2,
+      2.5,
+      5
+    ],
+    "min": 3,
+    "max": 6,
+    "month_steps": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      12
+    ],
+    "overshoot_low": 0.1,
+    "overshoot_high": 0.2,
+    "edge_tolerance": 0.005
+  },
+  "focus": {
+    "context": "#b3b8be",
+    "context_dark": "#4b5158",
+    "highlight_width": 1.15,
+    "context_width": 0.85
+  },
+  "reference": {
+    "color": "#a3a8ae",
+    "width": 0.06,
+    "dash": [
+      2.0,
+      2.0
+    ],
+    "label_gap": 0.3
+  },
+  "points": {
+    "steps": [
+      {
+        "max": 200,
+        "radius": 0.2,
+        "opacity": 0.9
+      },
+      {
+        "max": 1000,
+        "radius": 0.14,
+        "opacity": 0.7
+      },
+      {
+        "max": 5000,
+        "radius": 0.1,
+        "opacity": 0.5
+      },
+      {
+        "max": null,
+        "radius": 0.07,
+        "opacity": 0.35
+      }
+    ],
+    "fill_lightness_step": 0.02
+  },
+  "tints": {
+    "step": 0.08,
+    "cap": 0.88,
+    "floor": 0.3
+  },
+  "donut": {
+    "hole": 0.6,
+    "hole_nested": 0.38,
+    "gap_pt": 2,
+    "leader_offset": 0.15,
+    "leader_elbow": 0.7,
+    "leader_run": 0.6,
+    "label_gap": 0.3,
+    "label_space": 0.35,
+    "min_radius": 2.5,
+    "arc_step": 2,
+    "key_share": 0.42,
+    "key_gap": 2.0,
+    "key_row_gap": 0.3,
+    "key_indent": 1.0,
+    "ring_min_share": 0.03,
+    "ring_label_pad": 0.3,
+    "max_slices": 7,
+    "max_levels": 3
+  },
+  "partition": {
+    "heading_gap": 0.6,
+    "row_gap": 1.25,
+    "max_bar": 3.2,
+    "label_pad": 0.4,
+    "gap_pt": 2
+  },
+  "survival": {
+    "band_opacity": 0.15,
+    "censor_tick": 0.6,
+    "censor_width": 0.055,
+    "median_dash": [
+      1,
+      2
+    ]
+  },
+  "forest": {
+    "column_gap": 1.5,
+    "row_pitch": 1.9,
+    "pooled_gap": 0.6,
+    "max_square": 1.1,
+    "min_square": 0.3,
+    "plain_square": 0.55,
+    "rule_gap": 0.4,
+    "axis_gap": 0.3,
+    "favours_gap": 0.4,
+    "max_ticks": 7,
+    "pooled_dash": [
+      2,
+      2
+    ]
+  },
+  "raincloud": {
+    "density_offset": 0.08,
+    "density_width": 0.38,
+    "density_opacity": 0.35,
+    "box_half": 0.035,
+    "points_centre": -0.22,
+    "points_spread": 0.2,
+    "bracket_step": 0.18,
+    "bracket_tick": 0.03,
+    "label_pad": 0.2
+  },
+  "sankey": {
+    "node_width": 0.45,
+    "node_gap": 0.5,
+    "label_gap": 0.4,
+    "link_opacity": 0.35,
+    "curve_points": 24,
+    "halo_pad": 0.2,
+    "heading_gap": 0.6,
+    "label_pad": 0.25
+  },
+  "bars": {
+    "width": 0.7,
+    "label_gap": 0.4,
+    "horizontal_count": 8,
+    "horizontal_length": 14,
+    "segment_min": 0.07,
+    "label_headroom": 0.1,
+    "category_pad": 0.6,
+    "gap_pt": 2
+  },
+  "fit": {
+    "band_opacity": 0.12,
+    "points": 64
+  },
+  "correlation": {
+    "max_cell": 4.0,
+    "gap_pt": 2,
+    "label_gap": 0.4,
+    "ramp": "blue-coral",
+    "key": [
+      -1,
+      -0.5,
+      0,
+      0.5,
+      1
+    ]
+  },
+  "funnel": {
+    "z": 1.959963984540054,
+    "point_radius": 0.2,
+    "point_opacity": 0.9,
+    "title_gap": 0.85
+  },
+  "colour_notes": {
+    "daylight": "vivid; the default",
+    "calm": "softer and lighter, for long reports",
+    "deep": "stays apart when printed in grey",
+    "lagoon": "cool: cyan after the pair",
+    "citrus": "warm: gold after the pair",
+    "bold": "saturated, for slides and posters",
+    "pair": "two groups: blue and red",
+    "pair-teal": "two groups: teal and orange",
+    "pair-print": "two groups that stay apart in grey",
+    "ink": "greyscale print",
+    "judgement": "low, some concerns, high",
+    "blues": "amounts, light to dark",
+    "teals": "amounts, light to dark",
+    "oranges": "amounts, light to dark",
+    "berries": "amounts, light to dark",
+    "greys": "amounts in greyscale",
+    "blue-coral": "below and above a midpoint",
+    "teal-berry": "below and above a midpoint",
+    "brand-sequential": "the active brand's ramp",
+    "brand-diverging": "the active brand's diverging ramp"
+  },
+  "swatches": {
+    "swatch": 1.3,
+    "gap_pt": 2,
+    "column_gap": 1.2,
+    "row_gap": 0.5,
+    "heading_gap": 0.4,
+    "group_gap": 1.0,
+    "min_swatch": 0.5,
+    "edge_contrast": 1.25,
+    "headings": {
+      "categorical": "Categorical palettes",
+      "purpose": "Purpose sets",
+      "sequential": "Sequential ramps",
+      "diverging": "Diverging ramps"
+    }
+  },
+  "risk_of_bias": {
+    "max_bar": 2.4,
+    "row_gap": 0.6,
+    "label_gap": 1.0,
+    "overall_gap": 1.0,
+    "gap_pt": 2,
+    "labels": {
+      "low": "Low risk",
+      "some": "Some concerns",
+      "high": "High risk"
+    }
+  },
+  "prisma": {
+    "box_pad": 0.55,
+    "row_gap": 1.6,
+    "column_gap": 2.2,
+    "main_share": 0.5,
+    "arrow_head": 0.35,
+    "bracket_gap": 0.6,
+    "bracket_tick": 0.4
+  },
+  "arcs": {
+    "min_width": 0.06,
+    "max_width": 0.7,
+    "opacity": 0.55,
+    "points": 48,
+    "node_radius": 0.22,
+    "label_gap": 0.5,
+    "key_line": 1.4,
+    "key_gap": 0.8
+  },
+  "ridgeline": {
+    "overlap": 0.6,
+    "fill_opacity": 0.35,
+    "headroom": 0.1
+  },
+  "chord": {
+    "gap_degrees": 2.0,
+    "ring": 0.07,
+    "ribbon_gap": 1.0,
+    "ribbon_opacity": 0.45,
+    "arc_step": 2
+  },
+  "venn": {
+    "fill_opacity": 0.14,
+    "label_gap": 0.3,
+    "side_cutoff": 0.1,
+    "arc_step": 2,
+    "apart": 0.1,
+    "iterations": 50
+  },
+  "study": {
+    "digit_steps": [
+      {"min": 10, "digits": 0},
+      {"min": 1, "digits": 1},
+      {"min": 0, "digits": 2}
+    ],
+    "percent_digits": 1,
+    "small_group": 5,
+    "numeric_text_share": 0.9,
+    "example_rows": 5,
+    "overview_columns": 3,
+    "overview_frame_mm": 32,
+    "overview_row_mm": 7,
+    "overview_panel_mm": 16,
+    "unit": "participants",
+    "ratio_measures": ["OR", "HR", "RR", "IRR"]
+  },
+  "spread": {
+    "row_pitch": 1.9,
+    "band": 0.42,
+    "band_opacity": 0.35,
+    "mark": 1.0,
+    "column_gap": 1.5,
+    "axis_gap": 0.3
+  },
+  "interactive": {
+    "veil": 0.75,
+    "hit_pt": 8,
+    "fonts": ["HairlineSans-Regular.ttf", "HairlineSans-Medium.ttf", "HairlineSans-SemiBold.ttf"]
+  },
+  "neutral_dark": {
+    "ink": "#e9ebee",
+    "muted": "#a7adb4",
+    "faint": "#8d949c",
+    "axis": "#4a5058",
+    "grid": "#262b31",
+    "band": "#21252a",
+    "surface": "#16191d"
+  }
+}

@@ -1,0 +1,492 @@
+{
+ "checks": [
+  {
+   "colors": [
+    "#0a6ddd",
+    "#de4642",
+    "#e79d01",
+    "#019a98",
+    "#f07202",
+    "#06b1f7",
+    "#06a141",
+    "#8264e7"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 14.461985820410787,
+   "worst_normal": 20.308593348830367,
+   "head_all_pairs": 14.85540674785141,
+   "light_slots": [
+    3,
+    5,
+    6
+   ],
+   "failures": 0,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#0a6ddd",
+    "#de4642",
+    "#e79d01",
+    "#019a98",
+    "#f07202",
+    "#06b1f7",
+    "#06a141",
+    "#8264e7"
+   ],
+   "pairs": "all",
+   "passed": false,
+   "worst_cvd": 1.4386830833956632,
+   "worst_normal": 9.741951611409922,
+   "head_all_pairs": 14.85540674785141,
+   "light_slots": [
+    3,
+    5,
+    6
+   ],
+   "failures": 2,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#397abe",
+    "#c66561",
+    "#43c49f",
+    "#d7a447",
+    "#3baee2",
+    "#67a559",
+    "#a26dba",
+    "#d67f50"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 10.658409794798638,
+   "worst_normal": 17.731666768891415,
+   "head_all_pairs": 11.912385393850867,
+   "light_slots": [
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   "failures": 0,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#397abe",
+    "#c66561",
+    "#43c49f",
+    "#d7a447",
+    "#3baee2",
+    "#67a559",
+    "#a26dba",
+    "#d67f50"
+   ],
+   "pairs": "all",
+   "passed": false,
+   "worst_cvd": 0.7915977283185608,
+   "worst_normal": 8.041874295045892,
+   "head_all_pairs": 11.912385393850867,
+   "light_slots": [
+    3,
+    4,
+    5,
+    6,
+    8
+   ],
+   "failures": 2,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#1649ae",
+    "#dd574e",
+    "#e4a409",
+    "#a75001",
+    "#05aef3",
+    "#079343",
+    "#7658cb",
+    "#92ac01"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 14.392654186769343,
+   "worst_normal": 19.57335939922511,
+   "head_all_pairs": 14.392654186769343,
+   "light_slots": [
+    3,
+    5,
+    8
+   ],
+   "failures": 0,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#1649ae",
+    "#dd574e",
+    "#e4a409",
+    "#a75001",
+    "#05aef3",
+    "#079343",
+    "#7658cb",
+    "#92ac01"
+   ],
+   "pairs": "all",
+   "passed": false,
+   "worst_cvd": 1.5431885140705472,
+   "worst_normal": 12.40581893618896,
+   "head_all_pairs": 14.392654186769343,
+   "light_slots": [
+    3,
+    5,
+    8
+   ],
+   "failures": 2,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#0c71d1",
+    "#da534f",
+    "#0fb9cc",
+    "#ef8604",
+    "#48b8fe",
+    "#99ba22",
+    "#5a62d2",
+    "#05a152"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 16.999815100068922,
+   "worst_normal": 26.80595234739225,
+   "head_all_pairs": 16.999815100068922,
+   "light_slots": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "failures": 0,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#0c71d1",
+    "#da534f",
+    "#0fb9cc",
+    "#ef8604",
+    "#48b8fe",
+    "#99ba22",
+    "#5a62d2",
+    "#05a152"
+   ],
+   "pairs": "all",
+   "passed": false,
+   "worst_cvd": 0.12885637163083172,
+   "worst_normal": 6.576616955175396,
+   "head_all_pairs": 16.999815100068922,
+   "light_slots": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "failures": 2,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#0574c7",
+    "#d6464d",
+    "#d4ad0a",
+    "#03b8ed",
+    "#ab3503",
+    "#7eba27",
+    "#8654cc",
+    "#059a46"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 17.381205116483866,
+   "worst_normal": 25.25351953210741,
+   "head_all_pairs": 17.381205116483866,
+   "light_slots": [
+    3,
+    4,
+    6
+   ],
+   "failures": 0,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#0574c7",
+    "#d6464d",
+    "#d4ad0a",
+    "#03b8ed",
+    "#ab3503",
+    "#7eba27",
+    "#8654cc",
+    "#059a46"
+   ],
+   "pairs": "all",
+   "passed": false,
+   "worst_cvd": 0.4101998106865311,
+   "worst_normal": 11.172165180525678,
+   "head_all_pairs": 17.381205116483866,
+   "light_slots": [
+    3,
+    4,
+    6
+   ],
+   "failures": 2,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#1249e5",
+    "#e5011a",
+    "#dfa70d",
+    "#0ca8cf",
+    "#e56806",
+    "#0a938e",
+    "#7629d8",
+    "#079343"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 13.688126700162176,
+   "worst_normal": 26.88816384236491,
+   "head_all_pairs": 17.365467621447458,
+   "light_slots": [
+    3,
+    4
+   ],
+   "failures": 0,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#1249e5",
+    "#e5011a",
+    "#dfa70d",
+    "#0ca8cf",
+    "#e56806",
+    "#0a938e",
+    "#7629d8",
+    "#079343"
+   ],
+   "pairs": "all",
+   "passed": false,
+   "worst_cvd": 2.5219621304742827,
+   "worst_normal": 10.335488746668288,
+   "head_all_pairs": 17.365467621447458,
+   "light_slots": [
+    3,
+    4
+   ],
+   "failures": 2,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#14325c",
+    "#e8574f",
+    "#8fc1f2",
+    "#9ee0b4"
+   ],
+   "pairs": "adjacent",
+   "passed": false,
+   "worst_cvd": 13.543413376496613,
+   "worst_normal": 14.194146131237408,
+   "head_all_pairs": 21.841068719202823,
+   "light_slots": [
+    3,
+    4
+   ],
+   "failures": 7,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#2474cf"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 100.0,
+   "worst_normal": 100.0,
+   "head_all_pairs": 100.0,
+   "light_slots": [],
+   "failures": 0,
+   "warnings": 0
+  },
+  {
+   "colors": [
+    "#44aa5a",
+    "#e8a628",
+    "#b93780"
+   ],
+   "pairs": "adjacent",
+   "passed": true,
+   "worst_cvd": 6.879449179121767,
+   "worst_normal": 20.497457594923585,
+   "head_all_pairs": 6.879449179121767,
+   "light_slots": [
+    1,
+    2
+   ],
+   "failures": 0,
+   "warnings": 2
+  },
+  {
+   "colors": [
+    "#009775",
+    "#e8a628",
+    "#b93780"
+   ],
+   "pairs": "all",
+   "passed": false,
+   "worst_cvd": 5.233844551725208,
+   "worst_normal": 25.71284181734167,
+   "head_all_pairs": 5.233844551725208,
+   "light_slots": [
+    2
+   ],
+   "failures": 2,
+   "warnings": 0
+  }
+ ],
+ "adapt": [
+  {
+   "colors": [
+    "#14325c",
+    "#e8574f",
+    "#8fc1f2",
+    "#9ee0b4"
+   ],
+   "adapted": [
+    "#2d558e",
+    "#e8574f",
+    "#77b4ee",
+    "#75c290"
+   ]
+  },
+  {
+   "colors": [
+    "#0b3d6e",
+    "#f2545b",
+    "#8cc8ff",
+    "#7fd8a0"
+   ],
+   "adapted": [
+    "#24578d",
+    "#f2545b",
+    "#75b4ed",
+    "#6bc48d"
+   ]
+  },
+  {
+   "colors": [
+    "#0a6ddd",
+    "#de4642",
+    "#e79d01",
+    "#019a98",
+    "#f07202",
+    "#06b1f7",
+    "#06a141",
+    "#8264e7"
+   ],
+   "adapted": [
+    "#0a6ddd",
+    "#de4642",
+    "#e79d01",
+    "#019a98",
+    "#f07202",
+    "#06b1f7",
+    "#06a141",
+    "#8264e7"
+   ]
+  }
+ ],
+ "ramps": {
+  "blues": [
+   "#e4f0ff",
+   "#add1ff",
+   "#73b1ff",
+   "#4390ee",
+   "#2771c8",
+   "#14549d",
+   "#0b3a6f"
+  ],
+  "teals": [
+   "#b2fffe",
+   "#3de8e9",
+   "#00c7c7",
+   "#00a4a4",
+   "#008282",
+   "#006262",
+   "#004444"
+  ],
+  "oranges": [
+   "#ffeadc",
+   "#ffbe91",
+   "#f69142",
+   "#d76f04",
+   "#ac5700",
+   "#834100",
+   "#5c2c00"
+  ],
+  "berries": [
+   "#ffe7f1",
+   "#ffb4d7",
+   "#f482bb",
+   "#d4609d",
+   "#b0447e",
+   "#882f60",
+   "#601e42"
+  ],
+  "greys": [
+   "#eeeeee",
+   "#cecece",
+   "#aeaeae",
+   "#8f8f8f",
+   "#717171",
+   "#555555",
+   "#3a3a3a"
+  ],
+  "blue-coral": [
+   "#0b3a6f",
+   "#14549d",
+   "#2771c8",
+   "#4390ee",
+   "#73b1ff",
+   "#add1ff",
+   "#efefed",
+   "#ffbab0",
+   "#ff8577",
+   "#e06255",
+   "#ba453b",
+   "#912f28",
+   "#661f19"
+  ],
+  "teal-berry": [
+   "#004444",
+   "#006262",
+   "#008282",
+   "#00a4a4",
+   "#00c7c7",
+   "#3de8e9",
+   "#efefed",
+   "#ffb4d7",
+   "#f482bb",
+   "#d4609d",
+   "#b0447e",
+   "#882f60",
+   "#601e42"
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+Package: hairline
+Title: Clean, Predictable Figures for Medical and Data Science
+Version: 0.1.0
+Authors@R: person("Nikolas", "Schrader", email = "hi@nikolasschrader.com",
+                  role = c("aut", "cre", "cph"), comment = c(ORCID = "0009-0001-4616-3804"))
+Description: A design system for 'ggplot2' figures: one frame for titles, legends,
+    panels and captions, a fixed spacing and type scale, colour-vision checked
+    palettes, brand files in the 'brand.yml' format, and print-ready export.
+    Produces output matching the 'hairline' Python package.
+License: MIT + file LICENSE
+URL: https://github.com/schradern/hairline
+BugReports: https://github.com/schradern/hairline/issues
+Copyright: The bundled 'Hairline Sans' font is a modified Public Sans,
+        Copyright 2015 The Public Sans Project Authors, under the SIL
+        Open Font License 1.1; see inst/COPYRIGHTS.
+Encoding: UTF-8
+Depends: R (>= 4.3)
+Imports: S7, ggplot2 (>= 4.0.0), grid, grDevices, jsonlite, ragg,
+        rlang, systemfonts, textshaping, tools, utils, yaml
+Suggests: cowplot, metafor, patchwork, png, rsvg, survival, svglite,
+        testthat (>= 3.0.0), withr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
+NeedsCompilation: no
+Packaged: 2026-10-19 05:17:30 UTC; nschrader
+Author: Nikolas Schrader [aut, cre, cph] (ORCID:
+    <https://orcid.org/0009-0001-4616-3804>)
+Maintainer: Nikolas Schrader <hi@nikolasschrader.com>
+Repository: CRAN
+Date/Publication: 2026-10-28 11:50:08 UTC

@@ -1,0 +1,140 @@
+[
+ {
+  "palette": [
+   "#0a6ddd",
+   "#de4642",
+   "#e79d01",
+   "#019a98",
+   "#f07202",
+   "#06b1f7",
+   "#06a141",
+   "#8264e7"
+  ],
+  "fixed": {},
+  "remembered": {},
+  "override": {},
+  "names": [
+   "Female",
+   "Male"
+  ],
+  "expected": {
+   "Female": "#0a6ddd",
+   "Male": "#de4642"
+  }
+ },
+ {
+  "palette": [
+   "#0a6ddd",
+   "#de4642",
+   "#e79d01",
+   "#019a98",
+   "#f07202",
+   "#06b1f7",
+   "#06a141",
+   "#8264e7"
+  ],
+  "fixed": {},
+  "remembered": {
+   "Surgical": "#0a6ddd"
+  },
+  "override": {},
+  "names": [
+   "Female",
+   "Male"
+  ],
+  "expected": {
+   "Female": "#0a6ddd",
+   "Male": "#de4642"
+  }
+ },
+ {
+  "palette": [
+   "#0a6ddd",
+   "#de4642",
+   "#e79d01",
+   "#019a98",
+   "#f07202",
+   "#06b1f7",
+   "#06a141",
+   "#8264e7"
+  ],
+  "fixed": {},
+  "remembered": {
+   "A": "#0a6ddd",
+   "X": "#0a6ddd"
+  },
+  "override": {},
+  "names": [
+   "A",
+   "X"
+  ],
+  "expected": {
+   "A": "#0a6ddd",
+   "X": "#de4642"
+  }
+ },
+ {
+  "palette": [
+   "#0a6ddd",
+   "#de4642",
+   "#e79d01",
+   "#019a98",
+   "#f07202",
+   "#06b1f7",
+   "#06a141",
+   "#8264e7"
+  ],
+  "fixed": {
+   "F": "#000000"
+  },
+  "remembered": {
+   "R": "#de4642"
+  },
+  "override": {
+   "O": "#ffffff"
+  },
+  "names": [
+   "O",
+   "F",
+   "R",
+   "N1",
+   "N2"
+  ],
+  "expected": {
+   "O": "#ffffff",
+   "F": "#000000",
+   "R": "#de4642",
+   "N1": "#0a6ddd",
+   "N2": "#e79d01"
+  }
+ },
+ {
+  "palette": [
+   "#0a6ddd",
+   "#de4642",
+   "#e79d01",
+   "#019a98",
+   "#f07202",
+   "#06b1f7",
+   "#06a141",
+   "#8264e7"
+  ],
+  "fixed": {
+   "Control": "#0a6ddd"
+  },
+  "remembered": {
+   "Arm A": "#e79d01"
+  },
+  "override": {},
+  "names": [
+   "Arm A",
+   "Arm B",
+   "Control"
+  ],
+  "expected": {
+   "Arm A": "#e79d01",
+   "Arm B": "#de4642",
+   "Control": "#0a6ddd"
+  }
+ }
+]
